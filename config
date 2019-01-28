@@ -34,7 +34,9 @@ bindsym $mod+Return exec xterm
 
 # kill focused window
 bindsym $mod+q kill
-#mis programitagoogle-chromes
+
+
+# ------ MY CUSTOM SHORTCUTS -----------------------
 bindsym $mod+c exec google-chrome #browser
 bindsym $mod+p exec pavucontrol #volumecontrol
 bindsym $mod+t exec pcmanfm  #files
@@ -42,24 +44,15 @@ bindsym $mod+b exec blueman-assistant #bluetooth
 bindsym $mod+z exec zathura #pdf-viewer
 bindsym $mod+m exec clementine #musica
 bindsym $mod+a exec arandr #screen-conf
-bindsym $mod+s --release exec scrot -s # screenies
+bindsym $mod+s --release exec scrot -s #screenies
 bindsym $mod+0 exec 0ad #bestgame!
+#--------------------------------------------------
+
+
 #teclas especiales portatil
-#keycode 232 = XF86MonBrightnessDown NoSymbol XF86MonBrightnessDown
-#keycode 233 = XF86MonBrightnessUp NoSymbol XF86MonBrightnessUp
-#keycode 234 = XF86AudioMedia NoSymbol XF86AudioMedia
-#keycode 235 = XF86Display NoSymbol XF86Display
-#keycode 236 = XF86KbdLightOnOff NoSymbol XF86KbdLightOnOff
-#keycode 237 = XF86KbdBrightnessDown NoSymbol XF86KbdBrightnessDown
-#keycode 238 = XF86KbdBrightnessUp NoSymbol XF86KbdBrightnessUp
-#keycode 239 = XF86Send NoSymbol XF86Send
-#keycode 240 = XF86Reply NoSymbol XF86Reply
-#keycode 241 = XF86MailForward NoSymbol XF86MailForward
-#keycode 242 = XF86Save NoSymbol XF86Save
-#keycode 243 = XF86Documents NoSymbol XF86Documents
-#keycode 244 = XF86Battery NoSymbol XF86Battery
-#keycode 245 = XF86Bluetooth NoSymbol XF86Bluetooth
-#keycode 246 = XF86WLAN NoSymbol XF86WLAN
+
+#I use "Light -S 100" now
+
 # Pulse Audio controls
  bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
  bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
