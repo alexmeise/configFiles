@@ -1,0 +1,17 @@
+URxvt.termName: rxvt
+URxvt.transparent: true
+URxvt.inheritPixmap: False
+URxvt.imLocale: es_ES.UTF-8
+URxvt.scrollBar: false
+URxvt.saveLines: 500
+URxvt.urlLauncher: firefox
+URxvt.cursorBlink: true
+URxvt.geometry: 80x20
+URxvt.fading: 25%
+urxvt.font: xft:Bitstream Vera Sans Mono:pixelsize=14
+urxvt.boldFont: xft:Bitstream Vera Sans Mono:bold:pixelsize=14
+URxvt*background: #303030
+urxvt.depth: 32
+urxvt.background: rgba:0000/0000/0000/bbbb
+URxvt.foreground: grey80
+#URxvt.font: xft:Inconsolata:pixelsize=12
