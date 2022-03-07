@@ -1,0 +1,17 @@
+echo "alias gp="git pull"" >> ~/.bashrc && . ~/.bashrc
+du -hs * | sort -h
+watch -d -n 1 'df'
+sort -t: -u -k1,1 | wc -l
+| vim -
+find /opt/ -type f -mtime +7 -name '*.log' -execdir rm -- '{}' \;
+---------------------------------------
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+useradd username --create-home
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+chmod go-w ~
+------------------------------------
+for i in $(whatever | awk -F'=' '{print $2}'); do ssh $i; done
+sudo yum history info package*
+aws eks --region eu-west-1 update-kubeconfig --name dev
