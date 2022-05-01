@@ -16,9 +16,6 @@ for i in $(whatever | awk -F'=' '{print $2}'); do ssh $i; done
 sudo yum history info package*
 aws eks --region eu-west-1 update-kubeconfig --name dev
 
-
-
-
 -------------------------------------
 
 i3
@@ -43,6 +40,7 @@ i3lock
 scrot
 git
 
+https://github.com/junegunn/fzf
 
 ---------------------------
 
