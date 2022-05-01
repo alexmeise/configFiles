@@ -41,3 +41,12 @@ feh
 neofetch
 i3lock
 scrot
+git
+
+
+---------------------------
+
+wget https://raw.githubusercontent.com/alexmeise/configFiles/master/.bashrc
+wget https://raw.githubusercontent.com/alexmeise/configFiles/master/.vimrc
+
+mv .bashrc .bashrcoriginal && mv .bashrc.1 .bashrc
