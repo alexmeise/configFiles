@@ -15,3 +15,29 @@ chmod go-w ~
 for i in $(whatever | awk -F'=' '{print $2}'); do ssh $i; done
 sudo yum history info package*
 aws eks --region eu-west-1 update-kubeconfig --name dev
+
+
+
+
+-------------------------------------
+
+i3
+i3status
+i3bar
+vim
+dmenu
+arandr
+spotify
+xterm
+surf 
+zathura
+cmatrix
+brightnessctl
+tlp
+blueman*
+pavucontrol
+pcmanfm
+feh
+neofetch
+i3lock
+scrot
